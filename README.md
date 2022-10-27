@@ -4,7 +4,7 @@
 
 ![preview](./assets/preview.png)
 
-projeto desenvolvido para participar do processo de Estágio Dev 2022 Geopost Energy
+projeto desenvolvido para participar do processo de Estágio Dev 2022 Geopost Energy,
 infelizmente não tive tempo suficiente para terminá-lo
 
 [ 🔗 click here to acess](https://agilitytzx.github.io/Tabela-Copa-do-Mundo-2022/)
