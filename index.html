@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon.png" />
+    <title>Tabela Copa do Mundo 2022</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header id="topo" class="header">
+        <h1>Copa do Mundo Catar 2022</h1>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <select id="btnGrupos">
+                        <option value="0">Grupo A</option>
+                        <option value="1">Grupo B</option>
+                        <option value="2">Grupo C</option>
+                        <option value="3">Grupo D</option>
+                        <option value="4">Grupo E</option>
+                        <option value="5">Grupo F</option>
+                        <option value="6">Grupo G</option>
+                        <option value="7">Grupo H</option>
+                    </select>
+                </li>
+                <li><a>Tabela de Jogos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- /modelo de listaDeGrupos -->
+        <section class="divGrupo">
+            <h2>Grupos</h2>
+            <div class="table_container">
+                <h3 class="tituloDoGrupo">Grupo A</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Posição </th>
+                            <th> Times </th>
+                            <th> Pontos </th>
+                        </tr>
+                    </thead>
+                    <tbody id="table_groups">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="tabelaDeJogos" class="div">
+            <h2>Partidas</h2>
+            <div class="table_container">
+                <h3 class="tituloDoGrupo">Grupo A</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Time A </th>
+                            <th> Gols </th>
+                            <th> X </th>
+                            <th> Gols </th>
+                            <th> Times B </th>
+                        </tr>
+                    </thead>
+                    <tbody id="table_matches">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>Produzido por Matheus Carreiro Fonseca Soares &copy; 2022</p>
+            <button class="btn btnTopo" id="irTopo">&UpArrow;</button>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
